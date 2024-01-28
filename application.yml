@@ -1,1 +1,5 @@
-
+---
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-secondary:9002/eureka/,http://eureka-tertiary:9003/eureka/,http://eureka-tertiary:9004/eureka/
