@@ -1,2 +1,9 @@
-test:
-  data: omid
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: root
+      database: mydatabase
+      password: secret
+      port: '27017'
+      host: localhost
