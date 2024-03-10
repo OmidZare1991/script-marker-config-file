@@ -14,7 +14,7 @@ spring:
 
 
 sm:
-  rabbitExchangeName: testEUpdated
+  rabbitExchangeName: testE
   rabbitRoutineKey: testR
 
 
